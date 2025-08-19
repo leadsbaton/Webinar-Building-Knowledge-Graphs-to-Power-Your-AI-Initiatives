@@ -224,6 +224,9 @@
 
                 showToast("Success! Your download will start now.");
 
+                //clear data
+                form.reset();
+
             } catch (err) {
                 console.error('EmailJS Error:', err);
                 showToast("Failed to send. Please try again.", false);
