@@ -46,7 +46,7 @@
             <form id="contactForm" class="mt-8 grid grid-cols-1 gap-5 max-w-xl">
                 <!-- Identify this as Form 1 -->
                 <input type="hidden" name="form_name"
-                    value="Form 8 - Building Knowledge Graphs to Power Your AI Initiatives" />
+                    value="Building Knowledge Graphs to Power Your AI Initiatives" />
 
                 <div>
                     <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
@@ -222,7 +222,7 @@
                 setLoading(true);
                 await emailjs.send(EMAIL_SERVICE_ID, EMAIL_TEMPLATE_ID, payload);
 
-                showToast("Submission successful!");
+                showToast("Successfully Registered!");
 
                 //clear data
                 form.reset();
